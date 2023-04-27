@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.container{
+    width: 50%;
+    height: 30%;
+    background-color: #00a884;
+    flex-direction: column;
+    display: flex;
+    
+    align-items: center;
+
+}
+.header {
+    margin: 20px 0px;
+}
+.change-section{
+    margin-bottom: 20px;
+}
+input{
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+}
+select{
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+}
+.change-btn{
+    border: 0;
+    border-radius: 8px;
+    background-color: goldenrod;
+    color: #fff;
+    padding: 8px;
+    font-size: 16px;
+    
+}
+.change-btn:hover{
+    border: 1px solid #fff;
+}
